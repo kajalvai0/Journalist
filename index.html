@@ -1,1 +1,76 @@
 
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>সাংবাদিক সংস্থা বদলগাছী</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📰 সাংবাদিক সংস্থা বদলগাছী</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">হোম</a></li>
+        <li><a href="#members">সদস্য</a></li>
+        <li><a href="#news">সংবাদ</a></li>
+        <li><a href="#about">আমাদের সম্পর্কে</a></li>
+        <li><a href="#contact">যোগাযোগ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>স্বাগতম!</h2>
+    <p>নওগাঁ জেলার বদলগাছীর সাংবাদিকদের একত্রীত প্ল্যাটফর্ম।</p>
+  </section>
+
+  <section id="members">
+    <h2>সভাপতি ও সম্পাদক</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="/image/shahidul.jpg" alt="Shahidul Islam" />
+        <h3>সভাপতি</h3>
+        <p>মোঃ শহিদুল ইসলাম</p>
+      </div>
+      <div class="card">
+        <img src="/image/firoz.jpg" alt="Firoz Hossain" />
+        <h3>সম্পাদক</h3>
+        <p>মোঃ ফিরোজ হোসেন</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="news">
+    <h2>সংবাদ প্রকাশ</h2>
+    <form id="newsForm">
+      <input type="text" id="title" placeholder="শিরোনাম" required />
+      <textarea id="content" placeholder="সংবাদের বিস্তারিত..." required></textarea>
+      <button type="submit">প্রকাশ করুন</button>
+    </form>
+    <div id="newsList"></div>
+  </section>
+
+  <section id="about">
+    <h2>আমাদের লক্ষ্য</h2>
+    <p>সত্য ও বস্তুনিষ্ঠ সংবাদ পরিবেশন, সাংবাদিকদের অধিকার রক্ষা ও উন্নয়ন।</p>
+  </section>
+
+  <section id="contact">
+    <h2>যোগাযোগ করুন</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="নাম" required />
+      <input type="email" id="email" placeholder="ইমেইল" required />
+      <textarea id="message" placeholder="বার্তা লিখুন..." required></textarea>
+      <button type="submit">পাঠান</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© ২০২৫ সাংবাদিক সংস্থা বদলগাছী | তৈরি করেছেন RSTS-BD</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
